@@ -160,9 +160,59 @@ public class DumbStuff {
         //int indx = 
         int[] ar = {1, 2, 3};
         
+        
 //        for (int jp: ar) {
 //            System.out.println(ar[jp]);
 //        }
+
+
+
+
+        /**
+         * 
+         * this is the compareTo method. from my understanding it converts the 
+         * first char in the string into it's decimal number (ex: A = 65, a = 97)
+         * and then it returns the difference between the numbers. However if the
+         * first two chars in each string are == then it will move to the next chars
+         * in the strings
+         * 
+         */
+        
+        String x = "a";
+        String yqwe = "b";
+        
+        System.out.println(x.compareTo(yqwe)); //if < 0 it means original being 
+        //compared to is greater
+        
+        System.out.println(gcf(7, 3));
+        
+        ll /= 2;
+        System.out.println(ll);
+        
+        C3 crt = new C3();
+        
+        System.out.println(crt.equals(null));
+        
+        System.out.println(8 > 2);
+        
+        System.out.println(l.tpepepe(ar));
+        
+        int ppp;
+        
+        gaming();
+        
+        int exa = 5;
+        exa *= 6 * 2;
+        
+        
+        //INTEGER DIVISION WILL ALWAYS RETURN AN INTEGER DESPITE IT BEING A DOUBLE
+        double num = 9 / 4;
+
+        System.out.print(num);
+
+        System.out.print(" ");
+
+        System.out.print((int) num);
     }
     
     //non static methods can only be called by individual objects - same for properties
@@ -174,5 +224,25 @@ public class DumbStuff {
 
     private void yeyesueueueue(String yup, String uqweqpwepqwe) {
         yup = "adadsad";
+    }
+    
+    
+    /**
+     * simple gcf method recursive
+     * 
+     * @param a
+     * @param b
+     * @return 
+     */
+    private int gcf (int a, int b) {
+        if(a % b == 0){
+            return b;
+        }
+        return gcf(b, a % b);
+        
+    }
+
+    private void gaming() {
+        System.out.println("woeowemfomwefmwofmweofmeofmwoef");
     }
 }

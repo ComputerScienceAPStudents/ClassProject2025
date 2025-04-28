@@ -43,8 +43,14 @@ public class C1 {
         System.out.println("yes");
     }
     
-    public boolean equals(C1 c){
+    public boolean jfk(){
+        int p = 6;
+        int y = 8;
+        return p > y;
+    }
+    
+    public int tpepepe(int[] y) {
         
-        return true;
+        return y[0] / 2;
     }
 }
